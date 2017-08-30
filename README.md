@@ -1,5 +1,7 @@
 # React Highcharts Wrapper
 
+[![Build Status](https://travis-ci.org/beestripes/react-highcharts-wrapper.svg?branch=master&)](https://travis-ci.org/beestripes/react-highcharts-wrapper)
+
 A wrapper that Reactifies Highcharts for you app.
 
 
