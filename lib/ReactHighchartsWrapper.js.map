@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/ReactHighchartsWrapper.js"],"names":["status"],"mappings":";;;;;AAAA,IAAMA,SAAS,aAAf;;kBAEeA,M","file":"ReactHighchartsWrapper.js","sourcesContent":["const status = 'coming soon';\n\nexport default status;"]}
