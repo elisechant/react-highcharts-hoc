@@ -5,6 +5,8 @@
 .editorconfig
 .nvmrc
 .travis.yml
+.github/
+.env/
 public/
 scripts/
 config/
@@ -12,7 +14,6 @@ yarn-error.log
 .*.test.js
 src/
 _trash/
-.github/
 build/
 coverage/
 examples/
