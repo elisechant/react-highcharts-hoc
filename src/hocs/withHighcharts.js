@@ -1,12 +1,11 @@
 
-import React, {PureComponent} from 'react';
-import Highcharts from 'highcharts';
+import React from 'react';
 
 
-const withHighcharts = Composed => {
-	return class extends PureComponent {
-		render() {
-			<Composed highcharts={Highcharts} />
-		}
-	}
+const AbstractWidget = () => {
+
+	const {highcharts} = this.context;
+
+	return <div>Chart</div>
+
 };

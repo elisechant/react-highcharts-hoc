@@ -1,8 +1,8 @@
 {
   "name": "react-highcharts-hoc",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "description": "A HOC to reactify Highcharts for you app.",
-  "main": "index.js",
+  "main": "lib/ReactHighchartsHoc.js",
   "license": "MIT",
   "repository": "git+https://github.com/beestripes/react-highcharts-hoc.git",
   "keywords": [
@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "prebuild:lib": "yarn clean:lib",
-    "build:lib": "babel src/ -d lib --ignore=index.js --source-maps --copy-files",
+    "build:lib": "babel src/ -d lib --source-maps --copy-files",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "npm run test -- --coverage --runInBand",
     "eject": "react-scripts eject"
