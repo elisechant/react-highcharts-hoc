@@ -1,3 +1,6 @@
-const status = 'coming soon';
 
-export default status;
+import withHighcharts from './hocs/withHighcharts';
+
+export default {
+	withHighcharts,
+}
