@@ -1,9 +1,9 @@
 # Contributing
 
 1. Fork and clone from your fork 
-2. Set `git@github.com:beestripes/flowpanel-spikes.io.git` as an upstream remote:
+2. Set `git@github.com:beestripes/react-highcharts-hoc.io.git` as an upstream remote:
 
-  `git remote add upstream git@github.com:beestripes/flowpanel-spikes.git`
+  `git remote add upstream git@github.com:beestripes/react-highcharts-hoc.git`
   
 3. Sync master before creating new branches: 
 

@@ -1,21 +1,20 @@
 {
-  "name": "react-highcharts-wrapper",
-  "version": "0.0.4-development",
-  "description": "A wrapper that Reactifies Highcharts for you app.",
+  "name": "react-highcharts-hoc",
+  "version": "0.0.1-development",
+  "description": "A HOC to reactify Highcharts for you app.",
   "main": "index.js",
   "license": "MIT",
-  "repository": "git+https://github.com/beestripes/react-highcharts-wrapper.git",
+  "repository": "git+https://github.com/beestripes/react-highcharts-hoc.git",
   "keywords": [
     "highcharts",
-    "highcharts-provider",
     "highcharts-hoc",
     "react"
   ],
   "author": "Elise Chant <elise.chant@gmail.com>",
   "bugs": {
-    "url": "https://github.com/beestripes/react-highcharts-wrapper/issues"
+    "url": "https://github.com/beestripes/react-highcharts-hoc/issues"
   },
-  "homepage": "https://github.com/beestripes/react-highcharts-wrapper#readme",
+  "homepage": "https://github.com/beestripes/react-highcharts-hoc#readme",
   "scripts": {
     "clean:lib": "rm -rf lib",
     "start": "react-scripts start",
