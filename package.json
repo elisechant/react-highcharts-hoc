@@ -1,12 +1,21 @@
 {
   "name": "react-highcharts-wrapper",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "description": "A wrapper that Reactifies Highcharts for you app.",
   "main": "index.js",
   "license": "MIT",
+  "repository": "git+https://github.com/beestripes/react-highcharts-wrapper.git",
   "keywords": [
     "highcharts",
     "react"
   ],
-  "author": "Elise Chant <elise.chant@gmail.com>"
+  "author": "Elise Chant <elise.chant@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/beestripes/react-highcharts-wrapper/issues"
+  },
+  "homepage": "https://github.com/beestripes/react-highcharts-wrapper#readme",
+  "dependencies": {
+    "highcharts": "^5.0.14",
+    "react": "^15.6.1"
+  }
 }
