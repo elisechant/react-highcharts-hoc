@@ -5,10 +5,9 @@ import Highcharts from 'highcharts';
 
 class HighchartsProvider extends Component {
 	getChildContext() {
-		const {
-			Highcharts: Highcharts,
-		};
-		return {highcharts};
+		return {
+			'Highcharts': this.props.Highcharts || Highcharts
+		}
 	}
 	render() {
 		return Children.only(this.props.children)
