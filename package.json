@@ -1,0 +1,12 @@
+{
+  "name": "react-highcharts-wrapper",
+  "version": "0.0.1-development",
+  "description": "A wrapper that Reactifies Highcharts for you app.",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "highcharts",
+    "react"
+  ],
+  "author": "Elise Chant <elise.chant@gmail.com>"
+}
