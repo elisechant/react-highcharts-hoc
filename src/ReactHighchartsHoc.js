@@ -1,5 +1,5 @@
 
-import HighchartsProvider from './providers/highcharts';
+import HighchartsProvider from './providers/highchartsProvider';
 import withHighcharts from './hocs/withHighcharts';
 
 export {

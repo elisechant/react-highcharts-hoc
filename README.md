@@ -20,3 +20,17 @@ A HOC to reactify Highcharts for you app.
 
 
 2. Follow the instructions how to use it (coming soon).
+
+
+
+
+
+
+HOC provides the service
+Often they don't have names that remind you on a connection between the HOCs and the services they connect.
+
+
+ context instead, can get delivered by any ancestor component. Like ServiceProviderA in our example.
+ But React now doesn't simply pass the context to every child component, you have to explicitly ask for it. And this asking is what you can implement in a HOC.  
+
+https://dev.to/kayis/higher-order-with-context

@@ -1,11 +1,23 @@
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
-const AbstractWidget = () => {
+const withHighcharts = Composed => {
+  const C = (props, context) => {
+    const newProps = {
+      ...props,
+      Highcharts: context.Highcharts,
+    };
+    return <Composed {...newProps} />
+  };
 
-	const {highcharts} = this.context;
+  C.contextTypes = {
+    Highcharts: PropTypes.object,
+  };
 
-	return <div>Chart</div>
-
+  return C;
 };
+
+export default withHighcharts;
+
